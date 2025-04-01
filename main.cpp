@@ -2,7 +2,9 @@
 using namespace std;
 
 int main(){
-    cout << "Hola Mundo" << endl;
+    int a;
+    cout << "Dame un numero"; cin >> a; cout << endl;
+    cout << "El numero introducido es: " << a << endl;
     return 0;
 }
 
