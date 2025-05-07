@@ -222,6 +222,8 @@ extern "C" {
             return os;
         }
     };
+    
+    //Faltan todas las clases heredadas
 
 #ifdef __cplusplus
 }
