@@ -13,10 +13,6 @@
 #ifndef TRIANGULO_H
 #define TRIANGULO_H
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
 #include <iomanip>
 #include <iostream>
 
@@ -225,9 +221,4 @@ extern "C" {
     
     //Faltan todas las clases heredadas
 
-#ifdef __cplusplus
-}
-#endif
-
 #endif /* TRIANGULO_H */
-
