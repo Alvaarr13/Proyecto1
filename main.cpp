@@ -1,11 +1,11 @@
-#include <iostream>
-using namespace std;
+#include "Triangulo.h"
 
 int main(){
-    int a;
-    cout << "Dame un numero"; cin >> a; cout << endl;
-    cout << "El numero introducido es: " << a << endl;
-    return 0;
-    //Me voy al seminario - Alvaro
+    Triangulo T1(5), T2(5), T3;
+    T3 = T1 + T2 - (T1 * T2);
+    
+    cout << "T1:\n" << T1 << endl;
+    cout << "T2:\n" << T2 << endl;
+    cout << "T3:\n" << T3 << endl;
 }
 
