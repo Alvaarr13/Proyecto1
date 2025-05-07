@@ -6,5 +6,6 @@ int main(){
     cout << "Dame un numero"; cin >> a; cout << endl;
     cout << "El numero introducido es: " << a << endl;
     return 0;
+    //Me voy al seminario - Alvaro
 }
 
